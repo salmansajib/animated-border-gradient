@@ -1,9 +1,10 @@
 import './App.css';
+import AnimatedBorder from './components/AnimatedBorder';
 
 function App() {
   return (
     <div className='app'>
-      <h1 className=' text-3xl '>Hello</h1>
+      <AnimatedBorder />
     </div>
   );
 }
